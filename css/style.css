@@ -1,0 +1,1222 @@
+/* ==============================================
+            common-part css start
+================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.title {
+    margin-left: 55px;
+    position: relative;
+}
+
+.title h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+}
+
+.title span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    display: block;
+    margin-top: 5px;
+}
+
+.title img {
+    position: absolute;
+    top: -32px;
+    left: -53px;
+}
+
+
+/* ==============================================
+            common-part css end
+================================================= */
+
+
+/* ==============================================
+            nav-part css start
+================================================= */
+
+nav {
+    background: transparent;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+}
+
+nav .logo {
+    width: 15%;
+    float: left;
+}
+
+nav .navbar {
+    width: 65%;
+    float: left;
+}
+
+nav .navbar ul {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav .navbar ul li {
+    display: inline-block;
+    margin-right: 27px;
+}
+
+nav .navbar ul li a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    transition: .7s;
+    position: relative;
+}
+
+nav .navbar ul li a img {
+    display: block;
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    opacity: 0;
+    transition: .7s;
+    transform: translateX(-50%);
+}
+
+nav .navbar ul li a:hover {
+    color: #d50a51;
+}
+
+nav .navbar ul li a:hover img {
+    opacity: 1;
+    bottom: -27px;
+}
+
+nav .navbar-button {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+nav .navbar-button a {
+    background: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    transition: .7s;
+}
+
+nav .navbar-button a i {
+    margin-right: 10px;
+}
+
+nav .navbar-button a:hover {
+    background: #ffffff;
+    color: #d50a51;
+}
+
+
+/* ==============================================
+            nav-part css end
+================================================= */
+
+
+/* ==============================================
+            banner-part css start
+================================================= */
+
+#banner-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    padding-top: 135px;
+}
+
+#banner-part .img {
+    width: 50%;
+    float: left;
+}
+
+#banner-part .img img {
+    width: 100%;
+}
+
+#banner-part .text {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#banner-part .text h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 61px;
+    font-weight: 600;
+    color: #8a5e3b;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+#banner-part .text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 84px;
+    font-weight: 400;
+    color: #d50a51;
+    text-transform: capitalize;
+    margin-top: -32px;
+}
+
+#banner-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#banner-part .text a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d50a51;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    transition: .7s;
+}
+
+#banner-part .text a:hover {
+    background: #d50a51;
+    color: #ffffff;
+}
+
+
+/* ==============================================
+            banner-part css end
+================================================= */
+
+
+/* ==============================================
+            history-part css start
+================================================= */
+
+#history-part {
+    margin-top: 100px;
+}
+
+#history-part .img {
+    width: 45%;
+    float: left;
+}
+
+#history-part .img img {
+    width: 100%;
+}
+
+#history-part .text {
+    width: 55%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+#history-part .text .history-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+}
+
+#history-part .text .history-details .text1 {
+    width: 570px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#history-part .text .history-details .text2 {
+    width: 567px;
+}
+
+
+/* ==============================================
+            history-part css end
+================================================= */
+
+
+/* ==============================================
+            gift-part css start
+================================================= */
+
+#gift-part {
+    background: #fff9e0;
+    margin-top: 125px;
+    padding: 60px 0;
+}
+
+#gift-part .text {
+    width: 50%;
+    float: left;
+}
+
+#gift-part .img {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+#gift-part .img img {
+    position: absolute;
+    top: -240px;
+    left: 0;
+}
+
+#gift-part .text .gift-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+}
+
+#gift-part .text .gift-details .text1 {
+    width: 570px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#gift-part .text .gift-details .text2 {
+    width: 567px;
+}
+
+#gift-part .text .button a {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: #d50a51;
+    color: #fefefe;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+#gift-part .text .button .send-gift {
+    transition: .7s;
+}
+
+#gift-part .text .button .send-proposal {
+    background: transparent;
+    color: #d50a51;
+    transition: .7s;
+}
+
+#gift-part .text .button .send-gift:hover {
+    background: transparent;
+    color: #d50a51;
+}
+
+#gift-part .text .button .send-proposal:hover {
+    background: #d50a51;
+    color: #fefefe;
+}
+
+
+/* ==============================================
+            gift-part css end
+================================================= */
+
+
+/* ==============================================
+            ticket-part css start
+================================================= */
+
+#ticket-part {
+    margin-top: 100px;
+}
+
+#ticket-part .img {
+    width: 46%;
+    float: left;
+}
+
+#ticket-part .img img {
+    width: 100%;
+}
+
+#ticket-part .text {
+    width: 54%;
+    float: left;
+}
+
+#ticket-part .text .ticket-title {
+    text-align: right;
+    margin-right: 55px;
+}
+
+#ticket-part .text .ticket-title .title {
+    position: relative;
+}
+
+#ticket-part .text .ticket-title .title img {
+    position: absolute;
+    top: -30px;
+    left: 473px;
+}
+
+#ticket-part .text .ticket-details {
+    text-align: right;
+}
+
+#ticket-part .text .ticket-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+
+#ticket-part .text .ticket-details .text1 {
+    width: 592px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#ticket-part .text .ticket-details .text2 {
+    width: 603px;
+}
+
+#ticket-part .text .button {
+    text-align: right;
+}
+
+#ticket-part .text .button a {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: #d50a51;
+    color: #fefefe;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+#ticket-part .text .button .quoate {
+    background: transparent;
+    color: #d50a51;
+    transition: .7s;
+}
+
+#ticket-part .text .button .ticket {
+    transition: .7s;
+}
+
+#ticket-part .text .button .ticket:hover {
+    background: transparent;
+    color: #d50a51;
+}
+
+#ticket-part .text .button .quoate:hover {
+    background: #d50a51;
+    color: #fefefe;
+}
+
+
+/* ==============================================
+            ticket-part css end
+================================================= */
+
+
+/* ==============================================
+            offer-part css start
+================================================= */
+
+#offer-part {
+    background: url(../images/offer-banner.png) no-repeat center;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#offer-part .left {
+    width: 35%;
+    float: left;
+}
+
+#offer-part .left .title {
+    margin-top: 20px;
+}
+
+#offer-part .left .offer-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+}
+
+#offer-part .left .offer-details .text1 {
+    width: 365px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#offer-part .left .offer-details .text2 {
+    width: 365px;
+}
+
+#offer-part .right {
+    width: 65%;
+    float: left;
+}
+
+#offer-part .right .box {
+    width: 50%;
+    float: left;
+    background: transparent;
+    margin-bottom: 15px;
+    padding: 30px 0;
+    padding-left: 30px;
+    padding-right: 34px;
+    box-sizing: border-box;
+    border-right: 3px solid transparent;
+    transition: .7s;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+}
+
+#offer-part .right .box h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d50a51;
+}
+
+#offer-part .right .box h3 img {
+    margin-right: 20px;
+}
+
+#offer-part .right .box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+#offer-part .right .box:hover {
+    background: #f1f1f1;
+    border-color: #d50a51;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ==============================================
+            offer-part css end
+================================================= */
+
+
+/* ==============================================
+            shoot-part css start
+================================================= */
+
+#shoot-part {
+    margin-top: 100px;
+}
+
+#shoot-part .img {
+    width: 65%;
+    float: left;
+}
+
+#shoot-part .img .shoot-img {
+    width: 45%;
+    float: left;
+    margin: 0 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#shoot-part .img .shoot-img img {
+    width: 100%;
+    display: block;
+}
+
+#shoot-part .img .shoot-img .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: .7s;
+}
+
+#shoot-part .img .shoot-img .overlay .icon {
+    width: 40px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#shoot-part .img .shoot-img .overlay .icon i {
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: .7s;
+}
+
+#shoot-part .img .shoot-img .overlay .overlay-text {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+#shoot-part .img .shoot-img .overlay .overlay-text h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#shoot-part .img .shoot-img .overlay .overlay-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#shoot-part .img .shoot-img .overlay .overlay-text span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#shoot-part .img .shoot-img .overlay .icon a:hover i {
+    background: #d50a51;
+    border-color: #d50a51;
+}
+
+#shoot-part .img .shoot-img:hover .overlay {
+    transform: scale(1);
+}
+
+#shoot-part .text {
+    width: 35%;
+    float: left;
+    padding-top: 35px;
+}
+
+#shoot-part .text .shoot-title {
+    text-align: right;
+}
+
+#shoot-part .text .shoot-title .title {
+    position: relative;
+}
+
+#shoot-part .text .shoot-title .title img {
+    position: absolute;
+    top: -30px;
+    left: 312px;
+}
+
+#shoot-part .text .shoot-details {
+    text-align: right;
+}
+
+#shoot-part .text .shoot-details p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+
+#shoot-part .text .shoot-details .text1 {
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#shoot-part .text .button {
+    text-align: right;
+}
+
+#shoot-part .text .button a {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: #d50a51;
+    color: #fefefe;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+#shoot-part .text .button .browse {
+    background: transparent;
+    color: #d50a51;
+    transition: .7s;
+}
+
+#shoot-part .text .button .upload {
+    transition: .7s;
+}
+
+#shoot-part .text .button .upload:hover {
+    background: transparent;
+    color: #d50a51;
+}
+
+#shoot-part .text .button .browse:hover {
+    background: #d50a51;
+    color: #fefefe;
+}
+
+
+/* ==============================================
+            shoot-part css end
+================================================= */
+
+
+/* ==============================================
+            time-part css start
+================================================= */
+
+#time-part {
+    background: url(../images/timebackground.png);
+    margin-top: 100px;
+    height: 250px;
+}
+
+#time-part .number1 {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#time-part .number1 img {
+    margin-left: 10px;
+}
+
+#time-part .number1 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #d50a51;
+    margin-top: 18px;
+}
+
+#time-part .number1 h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #444444;
+}
+
+#time-part .number2 {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+
+
+/* #time-part .number2 img {
+    margin-left: 10px;
+} */
+
+#time-part .number2 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #d50a51;
+    margin-top: 18px;
+}
+
+#time-part .number2 h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #444444;
+}
+
+#time-part .number3 {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+
+/* #time-part .number3 img {
+    margin-left: 10px;
+} */
+
+#time-part .number3 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #d50a51;
+    margin-top: 15px;
+}
+
+#time-part .number3 h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #444444;
+}
+
+#time-part .number4 {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 36px;
+    margin-left: 73px;
+}
+
+
+/* #time-part .number4 img {
+    margin-left: 10px;
+} */
+
+#time-part .number4 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #d50a51;
+    margin-top: 18px;
+}
+
+#time-part .number4 h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #444444;
+}
+
+
+/* ==============================================
+            time-part css end
+================================================= */
+
+
+/* ==============================================
+            officer-part css start
+================================================= */
+
+#officer-part {
+    margin-top: 100px;
+}
+
+#officer-part .left {
+    width: 49%;
+    float: left;
+    background: #fffae2;
+    padding: 0 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+#officer-part .left .shape1 {
+    position: absolute;
+    top: -42px;
+    left: -39px;
+}
+
+#officer-part .left .text {
+    width: 100%;
+}
+
+#officer-part .left .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    width: 510px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+#officer-part .left .img {
+    width: 100%;
+    padding-left: 30px;
+    margin-top: 25px;
+}
+
+#officer-part .left .img .officer-img {
+    float: left;
+}
+
+#officer-part .left .img .officer-text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#officer-part .left .img .officer-text h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 24px;
+}
+
+#officer-part .left .img .officer-text h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 24px;
+}
+
+#officer-part .right {
+    width: 49%;
+    background: #fffae2;
+    float: left;
+    margin-left: 22px;
+    /* padding: 0 30px; */
+    padding-top: 40px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+#officer-part .right .shape2 {
+    position: absolute;
+    bottom: -42px;
+    right: -39px;
+}
+
+#officer-part .right .text {
+    width: 100%;
+}
+
+#officer-part .right .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    width: 510px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#officer-part .right .img {
+    width: 100%;
+    padding-left: 30px;
+    margin-top: 25px;
+}
+
+#officer-part .right .img .officer-img {
+    float: left;
+}
+
+#officer-part .right .img .officer-text {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#officer-part .right .img .officer-text h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 24px;
+}
+
+#officer-part .right .img .officer-text h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 24px;
+}
+
+
+/* ==============================================
+            officer-part css end
+================================================= */
+
+
+/* ==============================================
+            footer-part css start
+================================================= */
+
+#footer-part {
+    background: url(../images/footerbackground.png) no-repeat center;
+    background-size: cover;
+    margin-top: 160px;
+}
+
+#footer-part .news {
+    width: 100%;
+    background: #d50a51;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    border-radius: 70px;
+    transform: translateY(-50%);
+}
+
+#footer-part .news .left {
+    width: 36%;
+    float: left;
+    position: relative;
+    padding-left: 62px;
+    box-sizing: border-box;
+}
+
+#footer-part .news .left .plane {
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer-part .news .left h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#footer-part .news .left p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#footer-part .news .right {
+    width: 64%;
+    float: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#footer-part .news .right input {
+    width: 248px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 11px 0;
+    padding-left: 11px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#footer-part .news .right input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+#footer-part .news .right button {
+    font-size: 18px;
+    background: transparent;
+    border: 0;
+    border-left: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    padding-bottom: 7px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+#footer-part .footer-logo {
+    text-align: center;
+}
+
+#footer-part .info {
+    width: 30%;
+    float: left;
+    margin-top: 60px;
+}
+
+#footer-part .mail {
+    margin-left: 76px;
+}
+
+#footer-part .globe {
+    margin-left: 34px;
+}
+
+#footer-part .info .icon {
+    width: 23%;
+    float: left;
+}
+
+#footer-part .info .text {
+    width: 77%;
+    float: left;
+}
+
+#footer-part .info .icon i {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    background: #d50a51;
+    color: #ffffff;
+    line-height: 50px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#footer-part .info .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+}
+
+#footer-part .follow h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d50a51;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#footer-part .follow .icon {
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer-part .follow .icon a i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: transparent;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    transition: .7s;
+}
+
+#footer-part .follow .icon a:hover i {
+    background: #d50a51;
+    color: #ffffff;
+}
+
+
+/* ==============================================
+            footer-part css end
+================================================= */
+
+
+/* ==============================================
+            copypart-part css start
+================================================= */
+
+#copy-part {
+    background: #fce1ed;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#copy-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+
+#copy-part p i {
+    font-size: 14px;
+    color: #444444;
+}
+
+#copy-part p span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #d50a51;
+}
+
+
+/* ==============================================
+            copypart-part css end
+================================================= */
